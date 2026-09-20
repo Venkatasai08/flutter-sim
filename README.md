@@ -1,13 +1,45 @@
-# flutter-sim 📱✨
+# flutter-sim 💙📱
 
-> Push a **Flutter** app to GitHub, build it on a GitHub-hosted Apple Silicon macOS runner, and stream the live, interactive **iOS Simulator** directly to your browser on Windows, Linux, or macOS.
+> **Interactive iOS Simulator Streaming in the Browser for Flutter Apps** — No Mac or Xcode required locally on Windows, Linux, or macOS.
+
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Venkatasai08%2Fflutter--sim-blue?logo=github)](https://github.com/Venkatasai08/flutter-sim)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+---
+
+## 🌟 The Flutter Evolution of `native-sim`
+
+**`flutter-sim` is the Flutter evolution inspired by [bidah/native-sim](https://github.com/bidah/native-sim).**
+
+### 💡 The Big Difference: Flutter Support vs. React Native Only
+
+* **[native-sim](https://github.com/bidah/native-sim)** was designed exclusively for **React Native & Expo** projects and cannot build or run Flutter applications.
+* **`flutter-sim` (This Project)** brings this capability to the **Flutter ecosystem**:
+  * Automatically reads `pubspec.yaml` and configures the Flutter iOS build pipeline on GitHub Actions.
+  * Compiles Flutter apps on cloud Apple Silicon macOS runners (`flutter build ios --simulator --no-codesign`).
+  * Boots the iOS Simulator, installs `Runner.app`, and streams the interactive Flutter UI with touch & gesture control straight to your browser!
+
+---
+
+## 📊 Feature Comparison
+
+| Feature | [native-sim](https://github.com/bidah/native-sim) | `flutter-sim` (This Project) 💙 |
+|---|---|---|
+| **Supported Frameworks** | React Native & Expo only | **Flutter (Full Native Support)** |
+| **Project File Read** | `package.json` | **`pubspec.yaml`** |
+| **Build Engine** | React Native / Xcode | **Flutter CLI (`flutter build ios`)** |
+| **Where You Can Develop** | Windows, Linux, macOS | **Windows, Linux, macOS** |
+| **Interactive Screen Streaming** | Yes | **Yes (30 FPS + Touch Gestures)** |
+| **Local Mac / Xcode Required?** | No | **No (Zero Mac Setup)** |
+
+---
 
 ```bash
 cd my_flutter_app
-flutter-sim up
+flutter-sim up --minutes 30
 ```
 
-```
+```text
 › Preparing Flutter repository
 ✓ Committed changes on main
 ✓ Pushed to your-username/my_flutter_app
@@ -16,8 +48,8 @@ flutter-sim up
 ✓ Simulator stream is live!
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  📱 iOS Simulator Live Stream
-  🔗 https://calm-river-1234.trycloudflare.com/?k=9f8e7d6c...
+  📱 iOS Simulator Live Stream (Flutter Mode)
+  🔗 https://ahead-theorem-prior-stake.trycloudflare.com/?k=...
   ⏱️  Session active for 30 minutes
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
