@@ -34,29 +34,46 @@ flutter-sim up
 
 ---
 
-## 📦 Installation & Setup
+## 📦 How to Download & Install Globally
 
-You can install `flutter-sim` directly from this GitHub repository:
+To use `flutter-sim` across **all** your Flutter projects from anywhere in your terminal:
 
-### Option 1: One-Line Global Install (Recommended)
+### 🌟 Method 1: Clone & Install Globally on Your System (Recommended)
+```bash
+# 1. Clone the flutter-sim repository
+git clone https://github.com/Venkatasai08/flutter-sim.git
+
+# 2. Go into the flutter-sim directory
+cd flutter-sim
+
+# 3. Install dependencies and register globally on your computer
+npm install
+npm install -g .
+# (or run: npm link)
+```
+
+### ⚡ Method 2: One-Line Global Install (Directly from GitHub)
 ```bash
 npm install -g https://github.com/Venkatasai08/flutter-sim.git
 ```
 
-### Option 2: Clone & Link Locally
-```bash
-# Clone the repository
-git clone https://github.com/Venkatasai08/flutter-sim.git
-cd flutter-sim
-
-# Install and link globally
-npm install
-npm link
-```
-
-### Option 3: Run via `npx` (Zero Installation)
+### 🚀 Method 3: Run via `npx` (Zero Installation)
 ```bash
 npx https://github.com/Venkatasai08/flutter-sim up
+```
+
+---
+
+## 📱 How to Use Across ANY of Your Flutter Projects
+
+Once installed globally, simply open **any Flutter project** on your computer and run:
+
+```bash
+# Navigate to ANY Flutter project folder
+cd path/to/your_flutter_app
+
+# Launch interactive iOS simulator
+flutter-sim up --minutes 30
 ```
 
 ---
