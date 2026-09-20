@@ -123,6 +123,13 @@ YOUR BROWSER                      CLOUDFLARE EDGE
 
 ---
 
+## 🤝 Credits & Acknowledgements
+
+* Inspired by [bidah/native-sim](https://github.com/bidah/native-sim) for pioneer work bringing remote iOS simulator streaming to React Native. `flutter-sim` adapts and builds upon this concept specifically for the Flutter ecosystem.
+* Powered by Apple Silicon macOS GitHub Actions runners, `@expo/serve-sim`, and Cloudflare Quick Tunnels.
+
+---
+
 ## 📄 License
 
-MIT License
+MIT License © 2026
