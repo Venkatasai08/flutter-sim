@@ -1,0 +1,24 @@
+{
+  "name": "flutter-sim",
+  "version": "1.0.0",
+  "description": "Stream an interactive iOS Simulator of your Flutter app from a GitHub-hosted macOS runner directly to your browser.",
+  "type": "module",
+  "bin": {
+    "flutter-sim": "bin/flutter-sim.js"
+  },
+  "main": "src/cli.js",
+  "keywords": [
+    "flutter",
+    "ios-simulator",
+    "github-actions",
+    "simulator",
+    "serve-sim",
+    "cloudflared",
+    "streaming"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
