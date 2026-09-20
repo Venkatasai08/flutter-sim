@@ -34,18 +34,29 @@ flutter-sim up
 
 ---
 
-## 📦 Installation
+## 📦 Installation & Setup
 
-Install globally using `npm`:
+You can install `flutter-sim` directly from this GitHub repository:
 
+### Option 1: One-Line Global Install (Recommended)
 ```bash
-npm install -g flutter-sim
+npm install -g https://github.com/Venkatasai08/flutter-sim.git
 ```
 
-Or run directly with `npx`:
-
+### Option 2: Clone & Link Locally
 ```bash
-npx flutter-sim up
+# Clone the repository
+git clone https://github.com/Venkatasai08/flutter-sim.git
+cd flutter-sim
+
+# Install and link globally
+npm install
+npm link
+```
+
+### Option 3: Run via `npx` (Zero Installation)
+```bash
+npx https://github.com/Venkatasai08/flutter-sim up
 ```
 
 ---
