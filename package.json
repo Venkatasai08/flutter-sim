@@ -16,7 +16,11 @@
     "cloudflared",
     "streaming"
   ],
-  "author": "",
+  "author": "Venkata Sai (https://github.com/Venkatasai08)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Venkatasai08/flutter-sim.git"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
